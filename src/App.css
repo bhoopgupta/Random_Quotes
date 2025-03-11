@@ -1,0 +1,55 @@
+li{
+    font-size: 30px;
+  }
+  
+  
+.icon {
+    position: relative;
+  
+  }
+  
+.icon-name {
+    position: absolute;
+    top: -25px; /* Adjust this value to place the name above the icon */
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    font-size: 14px; 
+    background-color: #414141; /* Optional background for the name */
+    padding: 5px;
+    border-radius: 3px; 
+    text-align: center;
+    color: #fff;
+  }
+  
+  .icon:hover .icon-name {
+    opacity: 1;
+  }
+  
+  .footer-icon{
+    color: crimson;
+    margin: 5px;
+  }
+
+
+
+
+
+  body {
+    background-color: white;
+    color: black;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  body.dark {
+    background-color: #1a202c;
+    color: white;
+  }
+  
+  .dark-icon{
+    padding: 15px;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+  }
